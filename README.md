@@ -1,6 +1,6 @@
 # Kuepa EduTech Technical Test
 
-This App
+this app consumes an api which is responsible for giving us a list of users, filter the first 100 and with them show information components and other uses for the dashboard
 
 ### Technologies:
 
@@ -8,13 +8,14 @@ This App
 - Html/Css
 - Bootstrap
 
-### External Resourcer:
+### External Resources:
 
 - Axios
 - API (OpenData API)
+- FontAwesome
 
 ---
 
 ### Author: Steven Cardona Betancur
 
-> [Link Github]() | [Link Linkedin]()
+> [Link Github]("https://github.com/stevencar2004") | [Link Linkedin]("https://www.linkedin.com/in/stevencardona/")
