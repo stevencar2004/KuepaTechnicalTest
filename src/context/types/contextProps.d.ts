@@ -1,4 +1,6 @@
+import { ResponseAPI } from "../../shared/types/responseAPI";
+
 export type PropsContext = {
-  users: any;
+  users: Array<ResponseAPI>;
   isLoadingUsers: boolean;
 };

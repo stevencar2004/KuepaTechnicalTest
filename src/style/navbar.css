@@ -1,4 +1,141 @@
 .navbar {
+  top: 0px;
+  left: 0px;
+  width: 65px;
   height: 100vh;
-  background-color: #060629;
+  color: #82838c;
+}
+
+.navbar__header {
+  color: #535358;
+  font-weight: bolder;
+}
+.navbar__logo {
+  font-size: 28px;
+}
+.navbar__sublogo {
+  margin-top: -5px;
+  font-size: 6px;
+}
+
+.navbar__content {
+  width: 65px;
+}
+
+.navbar__link,
+.navbar__footer {
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.navbar__link:hover {
+  color: #fe9603;
+  border-left: 2px solid #fe9603;
+  transition: 0.3s ease;
+}
+
+.navbar__link--active {
+  color: #fe9603;
+  border-left: 2px solid #fe9603;
+}
+
+.navbar__user {
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+@media screen and (min-width: 600px) {
+  .usersCalls {
+    min-width: 380px;
+  }
+}
+
+.usersCalls__actions .status-user {
+  width: 25px;
+  height: 25px;
+  background: #82838c;
+  border-radius: 50%;
+}
+.usersCalls__actions .status-user--active {
+  background: #fe9603;
+}
+
+.goals {
+  flex-grow: 1;
+}
+.goals__link:hover {
+  color: #82838c;
+  cursor: pointer;
+}
+.goals__list {
+  flex-wrap: wrap;
+}
+
+.infoCard {
+  background: #fff;
+  /* width: 300px; */
+  padding: 10px;
+  border-radius: 20px;
+}
+.goals__indicator {
+  border-radius: 10px;
+  width: 100px;
+  height: 100%;
+  background: #3494e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ec6ead,
+    #3494e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ec6ead,
+    #3494e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-size: 45px;
+  margin: auto;
+  padding: 10px;
+}
+
+.infoCard--blue .goals__indicator {
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #9cecfb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #0052d4,
+    #65c7f7,
+    #9cecfb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #0052d4, #65c7f7, #9cecfb);
+}
+.infoCard--purple .goals__indicator {
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ff4b2b,
+    #ff416c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.goals__indicator span {
+  background: #fff;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.goals__info {
+  padding-left: 15px;
+  font-size: 20px;
 }

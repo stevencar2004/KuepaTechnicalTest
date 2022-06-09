@@ -1,4 +1,59 @@
 .callsbar {
   height: 100vh;
-  background-color: #060629;
+  color: #5a5c6d;
+  background-color: #2a2d46;
+  overflow-y: scroll;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .callsbar::before {
+    content: "";
+    position: fixed;
+    right: 190px;
+    top: calc(50vh - 125px);
+    width: 5px;
+    border-radius: 10px;
+    height: 250px;
+    background: #fff;
+  }
+}
+.callsbar__content {
+  padding: 10px 10px 10px 30px;
+}
+
+.msg {
+  width: 120px;
+  color: #fff;
+}
+
+.msg__header {
+  height: 25px;
+  background: rgb(136, 136, 136);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.callsbar__icon {
+  margin-right: 5px;
+}
+.msg__header .icon--facebook {
+  color: blue;
+  background: transparent;
+}
+.msg__header .icon--whatsapp {
+  color: green;
+  background: transparent;
+}
+.msg__header .icon--message {
+  color: rgb(0, 166, 255);
+  background: transparent;
+}
+
+.msg__content {
+  padding: 8px 10px;
+  background: rgb(48, 48, 48);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }

@@ -1,0 +1,59 @@
+.dashboard {
+  background: #f5f8fa;
+  min-height: 100vh;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  z-index: 10;
+}
+
+.filterbar__box {
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  padding: 0 12px;
+}
+.filterbar__box label:first-of-type {
+  color: #8f909a;
+}
+.filterbar__input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 100;
+  padding: 7px;
+}
+.filterbar__date {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.filterbar__date:hover {
+  cursor: pointer;
+  color: #8f909a;
+  transition: 0.3s ease;
+}
+
+.metrics,
+.postInfo {
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.metrics {
+  max-width: 600px;
+}
+
+.metrics__progress {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  /* background: #000; */
+  border-top: 5px solid #ff0000;
+  border-right: 5px solid #ff0000;
+  border-left: 5px solid #929295;
+  border-bottom: 5px solid #929295;
+  font-size: 30px;
+  color: #929295;
+}

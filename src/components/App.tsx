@@ -9,10 +9,12 @@ import "../style/dashboard.css";
 
 function App() {
   return (
-    <div className="App d-flex">
+    <div className="App">
       <NavBar />
-      <DashBoard />
-      <CallsBar />
+      <main className="row">
+        <DashBoard />
+        <CallsBar />
+      </main>
     </div>
   );
 }
