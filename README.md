@@ -18,4 +18,4 @@ this app consumes an api which is responsible for giving us a list of users, fil
 
 ### Author: Steven Cardona Betancur
 
-> [Link Github]("https://github.com/stevencar2004") | [Link Linkedin]("https://www.linkedin.com/in/stevencardona/")
+> [Link Github](https://github.com/stevencar2004) | [Link Linkedin](https://www.linkedin.com/in/stevencardona/)
